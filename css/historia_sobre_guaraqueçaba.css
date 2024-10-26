@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Fundo suave */
+}
+
+/* Estilos para o cabeçalho e navegação */
+header {
+    background: #007bff; /* Cor do cabeçalho */
+    color: white;
+    padding: 15px 0; /* Maior padding para um cabeçalho mais espaçoso */
+    text-align: center;
+}
+
+/* Estilos básicos para o menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* carousel */
+.carousel {
+    overflow: hidden; /* Oculta qualquer conteúdo que exceda o contêiner */
+    position: relative; /* Necessário para posicionar os elementos internos */
+}
+
+.carousel img {
+    width: 100%; /* Ajusta a largura da imagem ao contêiner */
+    height: 500px; /* Defina a altura fixa desejada */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço sem distorcer */
+    display: block; /* Garante que as imagens se comportem bem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+/* Seção de informações */
+#informacoes {
+    text-align: center; /* Centraliza o texto dentro da seção */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background: #f9f9f9; /* Fundo suave para destacar a seção */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 20px auto; /* Centraliza a seção na página */
+    max-width: 100px; /* Limita a largura máxima da seção */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+}
+
+#informacoes h2 {
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+#informacoes h3 {
+    margin-top: 15px; /* Espaçamento acima dos subtítulos */
+    margin-bottom: 10px; /* Espaçamento abaixo dos subtítulos */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 50px 0;
+    background: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+    line-height: 1.0; /* Controla o espaçamento entre as linhas */
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guaraqueçaba PR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Guaraqueçaba</h1>
+        <img src="images/logo_guara.jpg" alt="Imagem de Guaraqueçaba" style="width: 200px; height: 200px; vertical-align: middle; margin-left: 10px;">
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#" class="nav-link" data-target="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-target="servicos">Serviços</a></li>
+                <li><a href="#" class="nav-link" data-target="turismo">Turismo</a></li>
+                <li><a href="#" class="nav-link" data-target="mapa">Mapa Interativo</a></li>
+                <li><a href="#" class="nav-link" data-target="notificacoes">Notificações</a></li>
+                <li><a href="#" class="nav-link" data-target="forum">Fórum</a></li>
+                <li><a href="#" class="nav-link" data-target="login">Login</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section id="clima">         
+            <div id="clima-atual" align="center">
+                <h3>Clima Atual</h3>
+                <div class="info-clima" id="info-clima">
+                    <!-- Informações do clima atual serão inseridas aqui -->
+                </div>
+            </div>
+        
+            <h3>Previsões Futuras</h3>
+            <div class="previsao-container" id="previsao-futura">
+                <!-- Previsões futuras serão geradas dinamicamente aqui -->
+            </div>
+        </section>
+
+        <!-- Carrossel de Imagens -->
+        <div class="carousel">
+            <div><img src="images/1.jpg" alt="Imagem 1"></div>
+            <div><img src="images/2.jpg" alt="Imagem 2"></div>
+            <div><img src="images/3.jpg" alt="Imagem 3"></div>
+        </div>
+        
+
+        <!-- Seção de Informações sobre a Cidade -->
+        <section id="informacoes">
+            <h2><b>INFORMAÇÕES SOBRE A CIDADE DE GUARAQUEÇABA</b></h2>
+            <h3>HISTÓRIA SOBRE A CIDADE DE GUARAQUEÇABA</h3>
+            <p><b>A cidade é conhecida por sua rica história e cultura.</b> <a href="historia_sobre_guaraqueçaba.html"> Para conhecer a história da cidade basta ler aqui</a> </p>
+            <p><b>Explore nossas ilhas, trilhas, cachoeiras e a maior mata de preservação do mundo.</b> 
+            <p><b>Além de conhecer as diversas comunidades que enriquecem nossa região.</b></p>
+        </section>
+
+        <section id="historico_de_prefeitos">
+            <h2>TRAJETÓRIAS DE PREFEITOS: O LEGADO DE GUARAQUEÇABA</h2>
+            <h4 class="informacoes"><a href="https://informativo-nossopixirum.blogspot.com/2009/08/prefeitos-e-vereadores-de-guaraquecaba.html"> FONTE DE IMAGENS E INFORMAÇÕES NOSSO PIXIRUM</a></h4>
+            <div class="historico_de_prefeitos">
+                <div class="historico_de_prefeitos-inner">
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Dr. Luiz Ramos Figueira e vice Coronel Manoel Leandro da Costa..jpg" alt="Prefeito 1" title="Prefeito Dr. Luiz Ramos Figueira e vice Coronel Manoel Leandro da Costa">
+                        <p><strong>Prefeito</strong><br> Dr Luiz Ramos Figueira <br> Vice Coronel Manoel<br> Leandro da Costa <br> 1880 – 1882</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Coronel João Soares da Cruz.png" alt="Prefeito Coronel João Soares da Cruz" title="Prefeito Coronel João Soares da Cruz">
+                        <p><strong>Prefeito </strong><br> 1916 – 1919</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Sebastião Gomes de Faria.jpg" alt="Prefeito Sebastião Gomes de Faria" title="Prefeito Sebastião Gomes de Faria">
+                        <p><strong>Prefeito </strong><br>Sebastião Gomes de Faria<br> 1916 – 1919</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Dr. Agrícola da Fonseca (interventor)..png" alt="Prefeito Dr. Agrícola da Fonseca (interventor)" title="Prefeito Dr. Agrícola da Fonseca (interventor)">
+                        <p> <strong>Prefeito</strong> <br> 1924 – 1927 </p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Antônio Lisboa de Miranda.jpg" alt="Antônio Lisboa de Miranda" title="Antônio Lisboa de Miranda">
+                        <p><Strong>Prefeito</Strong> <br> Antônio Lisboa de Miranda <br>1933 – 1935 </p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Generoso Nascimento.png" alt="Prefeito Generoso Nascimento" title="Prefeito Generoso Nascimento">
+                        <p> 18/12/1935 <br> em diante</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Celso Roberto Xavier.JPG" alt="Celso Roberto Xavier" title="Celso Roberto Xavier">
+                        <p><strong>Prefeito</strong> <br>Celso Roberto Xavier <br> 1947 – 1951</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Ivo Santos.png" alt="Prefeito Ivo Santos" title="Prefeito Ivo Santos">
+                        <p> 1951 – 1954</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Dirceu Bastos Zanardine.jpg" alt="Prefeito Dirceu Bastos Zanardine">
+                        <p><strong>Prefeito</strong><br> Dirceu Bastos Zanardine <br> em 24/02/1954</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Celso Roberto Xavier.JPG" alt="Prefeito Celso Roberto Xavier.JPG">
+                        <p><strong>Prefeito</strong> <br> Celso Roberto Xavier <br> 1955 – 1958</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Mário Ferreira Lopes.jpg" alt="Mário Ferreira Lopes" title="Mário Ferreira Lopes">
+                        <p><strong>Prefeito</strong> <br>Mário Ferreira Lopes <br> 1959 – 1962 </p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Laertes Weisheimer e Vice Gabriel Ramos da Silva.png" alt="Prefeito Laertes Weisheimer e Vice Gabriel Ramos da Silva" title="">
+                        <p>1963 – 1967</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Gabriel Ramos da Silva e Vice João Amadeu Alves.png" alt="Gabriel Ramos da Silva e Vice João Amadeu Alves" title="Gabriel Ramos da Silva e Vice João Amadeu Alves">
+                        <p>1969 – 1972</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Salim do Carmo e Vice Ênio José Maria.jpg" alt="Salim do Carmo e Vice Ênio José Maria" title="Salim do Carmo e Vice Ênio José Maria">
+                        <p><strong>Prefeito</strong><br>Salim Do Carmo<br> 1973 – 1976</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Thomé Gabriel Sobrinho.JPG" alt="Thomé Gabriel Sobrinho" title="Thomé Gabriel Sobrinho">
+                        <p><strong>Prefeito</strong> <br>Thomé Gabriel Sobrinho <br> Mandato de 06 anos<br> 1977 – 1982</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Cleantes Coelho Xavier e Vice Arsênio Miranda.jpg" alt="Cleantes Coelho Xavier e Vice Arsênio Miranda" title="Cleantes Coelho Xavier e Vice Arsênio Miranda">
+                        <p><strong>Prefeito</strong><br>Cleantes Coelho Xavier <br> e Vice Arsênio Miranda<br>Mandato de 06 anos<br>1983 – 1988</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Luis Chemim.jpg" alt="Prefeito Luis Chemim" title="Prefeito Luis Chemim">
+                        <p><strong>Prefeito</strong><br>Prefeito Luis Chemim<br> 1989 – 1992</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Antônio Felício Ramos Filho e Vice Abelardo Sarubbi.jpg" alt="Antônio Felício Ramos Filho e Vice Abelardo Sarubbi" title="Antônio Felício Ramos Filho e Vice Abelardo Sarubbi">
+                        <p><strong>Prefeito</strong><br>Antônio Felício <br> Ramos Filho <br> e Vice Abelardo Sarubbi<br>1993 – 1996</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Noliyuki Ademar Miranda Ussui e Vice Eraldo Manoel do Nascimento.jpg" alt="Noliyuki Ademar Miranda Ussui e Vice Eraldo Manoel do Nascimento" title="Noliyuki Ademar Miranda Ussui e Vice Eraldo Manoel do Nascimento">
+                        <p><strong>Prefeito</strong><br>Noliyuki Ademar <br> Miranda Ussui <br>Vice Eraldo Manoel <br> do Nascimento<br>1997 – 2000</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Antonio Felicio Ramos Filho e vice Ivorí José Dias.png" alt="Antonio Felicio Ramos Filho e vice Ivorí José Dias" title="Antonio Felicio Ramos Filho e vice Ivorí José Dias">
+                        <p><strong>Prefeito</strong><br>2001 – 2004</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Riad Said Zahoui e Vice Gercê Cunha.jpg" alt="Riad Said Zahoui e Vice Gercê Cunha" title="Riad Said Zahoui e Vice Gercê Cunha">
+                        <p><strong>Prefeito</strong><br>Riad Said Zahoui <br> Vice Gercê Cunha<br>2005 – 2008</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Riad Said Zahoui e Vice Laurival Emílio da Silva Garotinho.png" alt="Riad Said Zahoui e Vice Laurival Emílio da Silva “Garotinho" title="Riad Said Zahoui e Vice Laurival Emílio da Silva “Garotinho">
+                        <p>2009 – 2012</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Haroldo Salustiano Arruda e vice Ailton Neves.JPG" alt="Haroldo Salustiano Arruda e vice Ailton Neves" title="Haroldo Salustiano Arruda e vice Ailton Neves">
+                        <p><strong>Prefeito</strong> <br>Haroldo Salustiano Arruda <br> Vice Ailton Neves <br>2011 - 2012</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Lilian Costa Ramos e Vice Joel Luiz do Nascimento Joel do Tromomô.jpg" alt="Lilian Costa Ramos e Vice Joel Luiz do Nascimento Joel do Tromomô" title="Lilian Costa Ramos e Vice Joel Luiz do Nascimento Joel do Tromomô">
+                        <p><strong>Prefeito</strong><br>Lilian Costa Ramos <br> Vice <br> Joel Luiz do <br> Nascimento Joel <br> do Tromomô <br>2013 – 2016</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Riad Said Zahoui e Vice José Teófilo Vidal Lopes Zito.jpg" alt="Riad Said Zahoui e Vice José Teófilo Vidal Lopes Zito" title="Riad Said Zahoui e Vice José Teófilo Vidal Lopes Zito">
+                        <p><strong>Prefeito</strong><br>Riad Said Zahoui <br> Vice José Teófilo <br> Vidal Lopes Zito <br>2017 - 2020</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Interino Abelardo Sarubbi.jpg" alt="Prefeito Interino Abelardo Sarubbi" title="Prefeito Interino Abelardo Sarubbi">
+                        <p><strong>Prefeito</strong><br>Interino Abelardo Sarubbi<br> 1 de janeiro <br> de 2017</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Hayssan Colombes Zahoui Ariad Júnior.jpg" alt="Hayssan Colombes Zahoui Ariad Júnior" title="Hayssan Colombes Zahoui Ariad Júnior">
+                        <p><strong>Prefeito</strong><br>Hayssan Colombes <br>Zahoui Ariad Júnior<br> 4 de junho <br> de 2017</p>
+                    </div>
+                
+                    <!-- Duplicando os itens para um efeito de loop contínuo -->
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Dr. Luiz Ramos Figueira e vice Coronel Manoel Leandro da Costa..jpg" alt="Prefeito 1" title="Prefeito Dr. Luiz Ramos Figueira e vice Coronel Manoel Leandro da Costa">
+                        <p><strong>Prefeito</strong><br> Dr Luiz Ramos Figueira <br> Vice Coronel Manoel<br> Leandro da Costa <br> 1880 – 1882</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Coronel João Soares da Cruz.png" alt="Prefeito Coronel João Soares da Cruz" title="Prefeito Coronel João Soares da Cruz">
+                        <p><strong>Prefeito </strong><br> 1916 – 1919</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Sebastião Gomes de Faria.jpg" alt="Prefeito Sebastião Gomes de Faria" title="Prefeito Sebastião Gomes de Faria">
+                        <p><strong>Prefeito </strong><br>Sebastião Gomes de Faria<br> 1916 – 1919</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Dr. Agrícola da Fonseca (interventor)..png" alt="Prefeito Dr. Agrícola da Fonseca (interventor)" title="Prefeito Dr. Agrícola da Fonseca (interventor)">
+                        <p> <strong>Prefeito</strong> <br> 1924 – 1927 </p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Antônio Lisboa de Miranda.jpg" alt="Antônio Lisboa de Miranda" title="Antônio Lisboa de Miranda">
+                        <p><Strong>Prefeito</Strong> <br> Antônio Lisboa de Miranda <br>1933 – 1935 </p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Generoso Nascimento.png" alt="Prefeito Generoso Nascimento" title="Prefeito Generoso Nascimento">
+                        <p> 18/12/1935 <br> em diante</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Celso Roberto Xavier.JPG" alt="Celso Roberto Xavier" title="Celso Roberto Xavier">
+                        <p><strong>Prefeito</strong> <br>Celso Roberto Xavier <br> 1947 – 1951</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Ivo Santos.png" alt="Prefeito Ivo Santos" title="Prefeito Ivo Santos">
+                        <p> 1951 – 1954</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Dirceu Bastos Zanardine.jpg" alt="Prefeito Dirceu Bastos Zanardine">
+                        <p><strong>Prefeito</strong><br> Dirceu Bastos Zanardine <br> em 24/02/1954</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Celso Roberto Xavier.JPG" alt="Prefeito Celso Roberto Xavier.JPG">
+                        <p><strong>Prefeito</strong> <br> Celso Roberto Xavier <br> 1955 – 1958</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Mário Ferreira Lopes.jpg" alt="Mário Ferreira Lopes" title="Mário Ferreira Lopes">
+                        <p><strong>Prefeito</strong> <br>Mário Ferreira Lopes <br> 1959 – 1962 </p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Laertes Weisheimer e Vice Gabriel Ramos da Silva.png" alt="Prefeito Laertes Weisheimer e Vice Gabriel Ramos da Silva" title="">
+                        <p>1963 – 1967</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Gabriel Ramos da Silva e Vice João Amadeu Alves.png" alt="Gabriel Ramos da Silva e Vice João Amadeu Alves" title="Gabriel Ramos da Silva e Vice João Amadeu Alves">
+                        <p>1969 – 1972</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Salim do Carmo e Vice Ênio José Maria.jpg" alt="Salim do Carmo e Vice Ênio José Maria" title="Salim do Carmo e Vice Ênio José Maria">
+                        <p><strong>Prefeito</strong><br>Salim Do Carmo<br> 1973 – 1976</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Thomé Gabriel Sobrinho.JPG" alt="Thomé Gabriel Sobrinho" title="Thomé Gabriel Sobrinho">
+                        <p><strong>Prefeito</strong> <br>Thomé Gabriel Sobrinho <br> Mandato de 06 anos<br> 1977 – 1982</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Cleantes Coelho Xavier e Vice Arsênio Miranda.jpg" alt="Cleantes Coelho Xavier e Vice Arsênio Miranda" title="Cleantes Coelho Xavier e Vice Arsênio Miranda">
+                        <p><strong>Prefeito</strong><br>Cleantes Coelho Xavier <br> e Vice Arsênio Miranda<br>Mandato de 06 anos<br>1983 – 1988</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Luis Chemim.jpg" alt="Prefeito Luis Chemim" title="Prefeito Luis Chemim">
+                        <p><strong>Prefeito</strong><br>Prefeito Luis Chemim<br> 1989 – 1992</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Antônio Felício Ramos Filho e Vice Abelardo Sarubbi.jpg" alt="Antônio Felício Ramos Filho e Vice Abelardo Sarubbi" title="Antônio Felício Ramos Filho e Vice Abelardo Sarubbi">
+                        <p><strong>Prefeito</strong><br>Antônio Felício Ramos Filho <br> e Vice Abelardo Sarubbi<br>1993 – 1996</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Noliyuki Ademar Miranda Ussui e Vice Eraldo Manoel do Nascimento.jpg" alt="Noliyuki Ademar Miranda Ussui e Vice Eraldo Manoel do Nascimento" title="Noliyuki Ademar Miranda Ussui e Vice Eraldo Manoel do Nascimento">
+                        <p><strong>Prefeito</strong><br>Noliyuki Ademar <br> Miranda Ussui <br>Vice Eraldo Manoel <br> do Nascimento<br>1997 – 2000</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Antonio Felicio Ramos Filho e vice Ivorí José Dias.png" alt="Antonio Felicio Ramos Filho e vice Ivorí José Dias" title="Antonio Felicio Ramos Filho e vice Ivorí José Dias">
+                        <p><strong>Prefeito</strong><br>2001 – 2004</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Riad Said Zahoui e Vice Gercê Cunha.jpg" alt="Riad Said Zahoui e Vice Gercê Cunha" title="Riad Said Zahoui e Vice Gercê Cunha">
+                        <p><strong>Prefeito</strong><br>Riad Said Zahoui <br> Vice Gercê Cunha<br>2005 – 2008</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Riad Said Zahoui e Vice Laurival Emílio da Silva Garotinho.png" alt="Riad Said Zahoui e Vice Laurival Emílio da Silva “Garotinho" title="Riad Said Zahoui e Vice Laurival Emílio da Silva “Garotinho">
+                        <p>2009 – 2012</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Haroldo Salustiano Arruda e vice Ailton Neves.JPG" alt="Haroldo Salustiano Arruda e vice Ailton Neves" title="Haroldo Salustiano Arruda e vice Ailton Neves">
+                        <p><strong>Prefeito</strong> <br>Haroldo Salustiano Arruda <br> Vice Ailton Neves <br>2011 - 2012</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Lilian Costa Ramos e Vice Joel Luiz do Nascimento Joel do Tromomô.jpg" alt="Lilian Costa Ramos e Vice Joel Luiz do Nascimento Joel do Tromomô" title="Lilian Costa Ramos e Vice Joel Luiz do Nascimento Joel do Tromomô">
+                        <p><strong>Prefeito</strong><br>Lilian Costa Ramos <br> Vice <br> Joel Luiz do <br> Nascimento Joel <br> do Tromomô <br>2013 – 2016</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Riad Said Zahoui e Vice José Teófilo Vidal Lopes Zito.jpg" alt="Riad Said Zahoui e Vice José Teófilo Vidal Lopes Zito" title="Riad Said Zahoui e Vice José Teófilo Vidal Lopes Zito">
+                        <p><strong>Prefeito</strong><br>Riad Said Zahoui <br> Vice José Teófilo <br> Vidal Lopes Zito <br>2017 - 2020</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Prefeito Interino Abelardo Sarubbi.jpg" alt="Prefeito Interino Abelardo Sarubbi" title="Prefeito Interino Abelardo Sarubbi">
+                        <p><strong>Prefeito</strong><br>Interino Abelardo Sarubbi<br> 1 de janeiro <br> de 2017</p>
+                    </div>
+                    <div class="historico_de_prefeitos-item">
+                        <img src="images/Hayssan Colombes Zahoui Ariad Júnior.jpg" alt="Hayssan Colombes Zahoui Ariad Júnior" title="Hayssan Colombes Zahoui Ariad Júnior">
+                        <p><strong>Prefeito</strong><br>Hayssan Colombes <br>Zahoui Ariad Júnior<br> 4 de junho <br> de 2017</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="home" class="hidden">
+            <h2>Página Inicial</h2>
+            <h3>Notícias</h3>
+            <p>Aqui você encontrará as últimas notícias da cidade.</p>
+            <h3>Eventos</h3>
+            <p>Informações sobre eventos futuros e passados.</p>
+            <h3>Alertas Importantes</h3>
+            <p>Alertas sobre situações emergenciais ou relevantes.</p>
+        </section>
+        
+        <section id="servicos" class="hidden">
+            <h2>Serviços Públicos</h2>
+            <h3>Saúde</h3>
+            <p>Informações sobre hospitais e postos de saúde.</p>
+            <h3>Educação</h3>
+            <p>Informações sobre escolas e universidades.</p>
+            <h3>Transporte</h3>
+            <p>Informações sobre transporte público.</p>
+            <h3>Segurança</h3>
+            <p>Informações sobre a segurança pública na cidade.</p>
+        </section>
+        
+        <section id="turismo" class="hidden">
+            <h2>Turismo</h2>
+            <h3>Atrações Locais</h3>
+            <p>Descubra as atrações turísticas da cidade.</p>
+            <h3>Eventos Culturais</h3>
+            <p>Fique por dentro dos eventos culturais que acontecem na cidade.</p>
+        </section>
+
+        <section id="mapa" class="hidden">
+            <h2>Mapa Interativo</h2>
+            <p>Um mapa que mostra a localização de serviços e atrações.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.7030885054957!2d-54.055467885113574!3d-25.310727483453604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e52f2c6501c5d9%3A0xc9b9a3e0c58805c3!2sCascavel%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1638891947896!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section id="login" class="hidden">
+            <h2>Área de Login</h2>
+            <p>Acesse sua conta para agendamentos, reclamações e pagamentos.</p>
+            <form>
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+
+        <section id="notificacoes" class="hidden">
+            <h2>Notificações e Alertas</h2>
+            <p>Aqui você encontrará informações sobre emergências e eventos especiais.</p>
+        </section>
+
+        <section id="forum" class="hidden">
+            <h2>Fórum da Comunidade</h2>
+            <p>Espaço para discussão de assuntos de interesse local.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p><b>&copy; 2024 GUARAQUEÇABA LITORAL DO PARANÁ</b></p>
+        <p><a href="https://www.facebook.com/emanoel.cunhanascimento" target="_blank">Emanoel Cunha Nascimento</a></p>
+        <p><b> Todos os direitos reservados </b></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
